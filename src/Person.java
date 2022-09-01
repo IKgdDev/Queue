@@ -8,4 +8,21 @@ public class Person {
         this.surname = surname;
         this.ticketCount = ticketCount;
     }
+
+    public int getTicketCount(){
+        return ticketCount;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void spendTicket(){
+        ticketCount--;
+    }
+
 }
